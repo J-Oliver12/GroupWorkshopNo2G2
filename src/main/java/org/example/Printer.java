@@ -1,8 +1,7 @@
 package org.example;
 
+public class Printer {
 
-
-public class App {
     public static void main(String[] args) {
         Person person1 = new Person(1, "Juan", "Oliver");
         Person person2 = new Person(2, "John", "Doe");
@@ -20,6 +19,5 @@ public class App {
 
         System.out.println("Book: " + book2.getTitle() + " - Author: " + book2.getAuthor() + "\nHeld by: " + book2.showPerson().getFirstName() + " " + book2.showPerson().getLastName());
     }
-
 
 }
